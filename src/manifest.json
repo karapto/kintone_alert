@@ -1,0 +1,12 @@
+{
+  "name": "Sample",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Sample Chrome Extension",
+  "content_scripts": [{
+    "matches": ["https://bozuman.cybozu.com/k/guest/1164/10*"],
+    "js": [
+      "content.js"
+    ]
+  }]
+}
